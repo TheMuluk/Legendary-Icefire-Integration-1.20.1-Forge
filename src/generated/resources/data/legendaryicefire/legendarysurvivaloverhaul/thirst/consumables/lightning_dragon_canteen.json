@@ -1,0 +1,32 @@
+[
+  {
+    "effects": [
+      {
+        "amplifier": 0,
+        "chance": 0.75,
+        "duration": 300,
+        "effect": "legendarysurvivaloverhaul:thirst"
+      }
+    ],
+    "hydration": 3,
+    "properties": {
+      "legendarysurvivaloverhaul:HydrationPurity": "normal"
+    },
+    "saturation": 0.0
+  },
+  {
+    "effects": [
+      {
+        "amplifier": 0,
+        "chance": 1,
+        "duration": 300,
+        "effect": "legendarysurvivaloverhaul:temperature_immunity"
+      }
+    ],
+    "hydration": 6,
+    "properties": {
+      "legendarysurvivaloverhaul:HydrationPurity": "purified"
+    },
+    "saturation": 1.5
+  }
+]

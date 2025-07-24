@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "legendaryicefire:item/ice_dragon_canteen_purified"
+  }
+}

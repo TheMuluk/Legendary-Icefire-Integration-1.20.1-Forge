@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "drink",
+  "key": {
+    "b": {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    "l": {
+      "item": "legendarysurvivaloverhaul:large_canteen"
+    },
+    "h": {
+      "item": "iceandfire:fire_dragon_heart"
+    }
+  },
+  "pattern": [
+    " b ",
+    " l ",
+    " h "
+  ],
+  "result": {
+    "item": "legendaryicefire:fire_dragon_canteen"
+  },
+  "show_notification": true
+}

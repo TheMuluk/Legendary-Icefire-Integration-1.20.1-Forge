@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "drink",
+  "key": {
+    "f": {
+      "tag": "legendaryicefire:dragon_flesh"
+    },
+    "h": {
+      "item": "legendarysurvivaloverhaul:healing_herbs"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "pattern": [
+    "   ",
+    "hf ",
+    " b "
+  ],
+  "result": {
+    "item": "legendaryicefire:vital_dragon_stew"
+  },
+  "show_notification": true
+}

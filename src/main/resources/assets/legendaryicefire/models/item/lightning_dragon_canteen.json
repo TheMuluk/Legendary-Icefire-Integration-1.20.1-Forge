@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "legendaryicefire:item/lightning_dragon_canteen"
+  },
+  "overrides": [
+    {
+      "model": "legendaryicefire:item/lightning_dragon_canteen_purified",
+      "predicate": {
+        "legendarysurvivaloverhaul:thirstenum": 0.3
+      }
+    }
+  ]
+}
