@@ -1,46 +1,65 @@
+Legendary Icefire Integration
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+Legendary Icefire is a Minecraft mod that integrates Legendary Survival Overhaul and Ice and Fire Dragons by adding new items, recipes, and special effects to enhance your gameplay experience.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+---
 
-Setup Process:
-==============================
+Features
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+- Adds Fire Dragon Bottle, Ice Dragon Bottle, and Lightning Dragon Bottle, each with unique effects when consumed.
+- Introduces Vital Dragon Stew, a healing item slightly stronger than the Bandage from Legendary Survival Overhaul.
+- Craftable items using materials from both Legendary Survival Overhaul and Ice and Fire.
+- New recipes for Cold String and Warm String from Legendary Survival Overhaul.
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+---
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+Installation
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+This mod requires Minecraft Forge and is compatible with Minecraft 1.20.1 (Forge). Place the mod .jar file into your mods folder.
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+---
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+Source Installation for Modders
+
+This mod follows the Minecraft Forge MDK setup:
+
+1. Clone this repository or download the source code.
+2. Open your terminal and navigate to the project directory.
+3. To set up your environment:
+   - For Eclipse:
+     Run: ./gradlew genEclipseRuns
+     Import the project as a Gradle project.
+   - For IntelliJ IDEA:
+     Import the build.gradle file and run:
+     ./gradlew genIntellijRuns
+4. Build the mod using:
+   ./gradlew build
+
+For more detailed info, see the Forge documentation:
+https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
+
+---
+
+Credits and Licenses
+
+- Legendary Survival Overhaul — MIT License
+  This mod includes code from Legendary Survival Overhaul, licensed under the MIT License.
+  Full license text: see LICENSE_MIT.txt or https://opensource.org/licenses/MIT
+
+- Ice and Fire Dragons — GNU Lesser General Public License (LGPL)
+  This mod uses item and ID data from Ice and Fire Dragons, licensed under LGPL.
+  Full license text: see LICENSE_LGPL.txt or https://www.gnu.org/licenses/lgpl-3.0.html
+
+---
+
+Disclaimer
+
+This mod was developed specifically for the Cytel-MC modpack and may not receive updates for newer Minecraft versions.
+
+---
+
+Additional Resources
+
+- Minecraft Forge Documentation: https://docs.minecraftforge.net/
+- Forge Forums: https://forums.minecraftforge.net/
+- Forge Discord: https://discord.minecraftforge.net/
