@@ -156,10 +156,12 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
     //Ice and Fire: Dragons Mod
+    //implementation fg.deobf("curse.maven:citadel-331936:6702068")
+
     implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5633453")
 
     //Legendary Survival Overhaul Mod
-    implementation fg.deobf("curse.maven:legendary-survival-overhaul-840254:6750561")
+    implementation fg.deobf("curse.maven:legendary-survival-overhaul-840254:7037397")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
